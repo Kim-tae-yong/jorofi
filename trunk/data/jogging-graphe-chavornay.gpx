@@ -1,0 +1,4866 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="MapSource 6.13.5" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2013-03-02T12:49:58Z</time>
+    <bounds maxlat="46.7274070" maxlon="6.5841794" minlat="46.6835904" minlon="6.5488668"/>
+  </metadata>
+
+  <wpt lat="46.7154872" lon="6.5706151">
+    <ele>440.9101563</ele>
+    <time>2013-03-02T12:47:19Z</time>
+    <name>001</name>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.7010355" lon="6.5643740">
+    <ele>446.0000000</ele>
+    <time>2013-03-02T12:48:08Z</time>
+    <name>start-bike-chav_sud</name>
+    <cmt>446 m</cmt>
+    <desc>446 m</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.7125767" lon="6.5695329">
+    <time>2013-03-02T12:46:51Z</time>
+    <name>start-maison</name>
+    <cmt>Road</cmt>
+    <desc>Road</desc>
+    <sym>Flag, Green</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.6894132" lon="6.5495008">
+    <ele>435.0000000</ele>
+    <time>2013-03-02T12:48:55Z</time>
+    <name>start-marais_dame</name>
+    <cmt>Road</cmt>
+    <desc>Road</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <rte>
+    <name>438m to Road5</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7243171" lon="6.5687943">
+      <ele>438.0000000</ele>
+      <time>2013-03-02T12:32:39Z</time>
+      <name>438m</name>
+      <cmt>438 m</cmt>
+      <desc>438 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b0003001f0f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7202401" lon="6.5723133">
+      <ele>439.2656250</ele>
+      <time>2013-03-02T12:32:47Z</time>
+      <name>Road5</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987cf88b00060065030f210400293974ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>439m to Road82</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6835904" lon="6.5494180">
+      <ele>439.0000000</ele>
+      <time>2013-03-02T12:41:45Z</time>
+      <name>439m</name>
+      <cmt>439 m</cmt>
+      <desc>439 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b000100e40f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6838908" lon="6.5540743">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:41:50Z</time>
+      <name>Road82</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000400e40f0f2104008b3222a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>439m to start-marais_dame</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6835904" lon="6.5494180">
+      <ele>439.0000000</ele>
+      <time>2013-03-02T12:41:45Z</time>
+      <name>439m</name>
+      <cmt>439 m</cmt>
+      <desc>439 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b000100e40f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6893027" lon="6.5492632">
+      <ele>434.9414063</ele>
+      <time>2013-03-02T12:41:33Z</time>
+      <name>Road80</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04007bf88b000300e60f0d210400873341a8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6894132" lon="6.5495008">
+      <ele>435.0000000</ele>
+      <time>2013-03-02T12:48:55Z</time>
+      <name>start-marais_dame</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000ffffffffffffffffffffffff</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>440m to Road2</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7125154" lon="6.5609622">
+      <ele>440.0000000</ele>
+      <time>2013-03-02T12:32:05Z</time>
+      <name>440m</name>
+      <cmt>440 m</cmt>
+      <desc>440 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b000100ef0f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7142534" lon="6.5618420">
+      <ele>437.0742188</ele>
+      <time>2013-03-02T12:31:35Z</time>
+      <name>Road2</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000200ef0f0f21040012388caa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>440m1 to Road8</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7274070" lon="6.5566707">
+      <ele>440.0000000</ele>
+      <time>2013-03-02T12:34:06Z</time>
+      <name>440m1</name>
+      <cmt>440 m</cmt>
+      <desc>440 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b000200c40f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7189741" lon="6.5515637">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:34:10Z</time>
+      <name>Road8</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987bf88b00010000100f210400ee38ada8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>442m to Road</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7157984" lon="6.5703177">
+      <ele>442.0000000</ele>
+      <time>2013-03-02T12:32:53Z</time>
+      <name>442m</name>
+      <cmt>442 m</cmt>
+      <desc>442 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b0004001f0f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7139959" lon="6.5695667">
+      <ele>442.8281250</ele>
+      <time>2013-03-02T12:31:14Z</time>
+      <name>Road</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000a001f0f0f2104000638f4ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>442m to start-maison</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7157984" lon="6.5703177">
+      <ele>442.0000000</ele>
+      <time>2013-03-02T12:32:53Z</time>
+      <name>442m</name>
+      <cmt>442 m</cmt>
+      <desc>442 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b0004001f0f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7154872" lon="6.5706151">
+      <ele>440.9101563</ele>
+      <time>2013-03-02T12:47:19Z</time>
+      <name>001</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000ffffffffffffffffffffffff</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7126146" lon="6.5694651">
+      <ele>444.0859375</ele>
+      <time>2013-03-02T12:47:12Z</time>
+      <name>Road89</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000300ec0f0d210400c537efab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7125767" lon="6.5695329">
+      <time>2013-03-02T12:46:51Z</time>
+      <name>start-maison</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Flag, Green</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000ffffffffffffffffffffffff</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>443m to Road10</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7049623" lon="6.5583873">
+      <ele>443.0000000</ele>
+      <time>2013-03-02T12:36:33Z</time>
+      <name>443m</name>
+      <cmt>443 m</cmt>
+      <desc>443 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b000100de0f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7049623" lon="6.5589881">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:36:43Z</time>
+      <name>RoadandUnpaved6</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000100de0f0f210400613607aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7044645" lon="6.5597482">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:36:45Z</time>
+      <name>Road24</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000100de0f0d21040049362aaa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7040808" lon="6.5609555">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:36:46Z</time>
+      <name>Road25</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000100de0f0d210400373662aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7040118" lon="6.5626035">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:36:46Z</time>
+      <name>Road26</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000300df0f0d2104003436afaa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7037392" lon="6.5653825">
+      <ele>442.8007813</ele>
+      <time>2013-03-02T12:34:44Z</time>
+      <name>Road10</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000100ca0f0f210400283631ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>443m to Road15</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7049623" lon="6.5583873">
+      <ele>443.0000000</ele>
+      <time>2013-03-02T12:36:33Z</time>
+      <name>443m</name>
+      <cmt>443 m</cmt>
+      <desc>443 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b000100de0f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7064792" lon="6.5564832">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:36:36Z</time>
+      <name>Road20</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000100de0f0d210400a73692a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7081874" lon="6.5539030">
+      <ele>439.6406250</ele>
+      <time>2013-03-02T12:36:37Z</time>
+      <name>Road21</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000100de0f0d210400f7361aa9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7094081" lon="6.5525763">
+      <ele>439.9296875</ele>
+      <time>2013-03-02T12:36:38Z</time>
+      <name>Road22</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000100de0f0d2104003037dca8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7105177" lon="6.5516845">
+      <ele>439.1835938</ele>
+      <time>2013-03-02T12:36:39Z</time>
+      <name>Road23</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000100de0f0d2104006337b2a8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7110173" lon="6.5516425">
+      <ele>439.1875000</ele>
+      <time>2013-03-02T12:36:11Z</time>
+      <name>Road15</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000700de0f0d2104007b37b0a8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>443m to Road28</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7049623" lon="6.5583873">
+      <ele>443.0000000</ele>
+      <time>2013-03-02T12:36:33Z</time>
+      <name>443m</name>
+      <cmt>443 m</cmt>
+      <desc>443 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b000100de0f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7044902" lon="6.5582800">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:36:54Z</time>
+      <name>Road27</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000500de0f0f2104004b36e6a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7027521" lon="6.5575504">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:36:55Z</time>
+      <name>RoadandUnpaved7</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000a00df0f0f210400fa35c4a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7009926" lon="6.5568638">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:36:56Z</time>
+      <name>Road28</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000a00df0f0f210400a835a4a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>450m to Road66</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7090821" lon="6.5710473">
+      <ele>450.0000000</ele>
+      <time>2013-03-02T12:37:44Z</time>
+      <name>450m</name>
+      <cmt>450 m</cmt>
+      <desc>450 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007cf88b00010052031200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7094898" lon="6.5714765">
+      <ele>448.2812500</ele>
+      <time>2013-03-02T12:39:55Z</time>
+      <name>Road66</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04987cf88b00010064030f21040034374dac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>450m to Road71</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7090821" lon="6.5710473">
+      <ele>450.0000000</ele>
+      <time>2013-03-02T12:37:44Z</time>
+      <name>450m</name>
+      <cmt>450 m</cmt>
+      <desc>450 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007cf88b00010052031200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7099190" lon="6.5697384">
+      <ele>446.3203125</ele>
+      <time>2013-03-02T12:40:37Z</time>
+      <name>Road71</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987bf88b000100ec0f0f2104004837fcab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>462m to Road65</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7102408" lon="6.5755105">
+      <ele>462.0000000</ele>
+      <time>2013-03-02T12:39:42Z</time>
+      <name>462m</name>
+      <cmt>462 m</cmt>
+      <desc>462 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007cf88b0001005d031200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7080522" lon="6.5738368">
+      <ele>466.2460938</ele>
+      <time>2013-03-02T12:39:45Z</time>
+      <name>Road65</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987cf88b00010052030f210400f136bbac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>474m to Road46</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7052197" lon="6.5747809">
+      <ele>474.0000000</ele>
+      <time>2013-03-02T12:38:58Z</time>
+      <name>474m</name>
+      <cmt>474 m</cmt>
+      <desc>474 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007cf88b00010041031200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7040474" lon="6.5731580">
+      <ele>474.7500000</ele>
+      <time>2013-03-02T12:39:00Z</time>
+      <name>Road53</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04007cf88b00040041030d21040036369bac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7030096" lon="6.5723777">
+      <ele>469.8437500</ele>
+      <time>2013-03-02T12:38:32Z</time>
+      <name>Road46</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04987cf88b00010040030f210400063677ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>474m to Road61</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7052197" lon="6.5747809">
+      <ele>474.0000000</ele>
+      <time>2013-03-02T12:38:58Z</time>
+      <name>474m</name>
+      <cmt>474 m</cmt>
+      <desc>474 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007cf88b00010041031200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7071939" lon="6.5766048">
+      <ele>473.6367188</ele>
+      <time>2013-03-02T12:39:19Z</time>
+      <name>Road61</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03e07cf88b00020041030f210400c9363cad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>499m to Road41</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7003918" lon="6.5819049">
+      <ele>499.0000000</ele>
+      <time>2013-03-02T12:38:10Z</time>
+      <name>499m</name>
+      <cmt>499 m</cmt>
+      <desc>499 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007cf88b0001004b031200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7007780" lon="6.5806389">
+      <ele>498.5078125</ele>
+      <time>2013-03-02T12:38:13Z</time>
+      <name>Road41</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b00040031030f2104009e35f8ad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>499m to Road56</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7003918" lon="6.5819049">
+      <ele>499.0000000</ele>
+      <time>2013-03-02T12:38:10Z</time>
+      <name>499m</name>
+      <cmt>499 m</cmt>
+      <desc>499 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007cf88b0001004b031200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7027950" lon="6.5833640">
+      <ele>501.7031250</ele>
+      <time>2013-03-02T12:39:08Z</time>
+      <name>Road56</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b0001002f030f210400fc3577ae</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Chavornay to 450m</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7060137" lon="6.5693307">
+      <ele>453.1992188</ele>
+      <time>2013-03-02T12:37:33Z</time>
+      <name>Chavornay</name>
+      <cmt>Chavornay</cmt>
+      <desc>Chavornay</desc>
+      <sym>City (Small)</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0b007bf88b000200cc0f0500000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7077947" lon="6.5698242">
+      <ele>449.6484375</ele>
+      <time>2013-03-02T12:37:43Z</time>
+      <name>Road40</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03187bf88b000300cc0f0f210400e53600ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7090821" lon="6.5710473">
+      <ele>450.0000000</ele>
+      <time>2013-03-02T12:37:44Z</time>
+      <name>450m</name>
+      <cmt>450 m</cmt>
+      <desc>450 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007cf88b00010052031200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Chavornay to Road34</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7060137" lon="6.5693307">
+      <ele>453.1992188</ele>
+      <time>2013-03-02T12:37:33Z</time>
+      <name>Chavornay</name>
+      <cmt>Chavornay</cmt>
+      <desc>Chavornay</desc>
+      <sym>City (Small)</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0b007bf88b000200cc0f0500000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7042112" lon="6.5689659">
+      <ele>454.2070313</ele>
+      <time>2013-03-02T12:37:35Z</time>
+      <name>Road38</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03187bf88b000300cc0f0f2104003e36d8ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7035885" lon="6.5688889">
+      <ele>453.6289063</ele>
+      <time>2013-03-02T12:37:37Z</time>
+      <name>Road39</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03007bf88b000100f40f0d2104002036d4ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7029667" lon="6.5691590">
+      <ele>454.6132813</ele>
+      <time>2013-03-02T12:37:17Z</time>
+      <name>Road34</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987bf88b000100f40f0f2104000436e1ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Mittelland-Rou2 to Road11</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7103300" lon="6.5678488">
+      <ele>446.7929688</ele>
+      <time>2013-03-02T12:34:46Z</time>
+      <name>Mittelland-Rou2</name>
+      <cmt>Mittelland-Route (5)</cmt>
+      <desc>Mittelland-Route (5)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>4eb87bf88b000480df0f0d2104005b37a3ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7111635" lon="6.5672493">
+      <ele>445.9140625</ele>
+      <time>2013-03-02T12:35:05Z</time>
+      <name>Road11</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000400ec0f0f210400823788ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road to Road1</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7139959" lon="6.5695667">
+      <ele>442.8281250</ele>
+      <time>2013-03-02T12:31:14Z</time>
+      <name>Road</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000a001f0f0f2104000638f4ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7123784" lon="6.5689524">
+      <ele>444.3007813</ele>
+      <time>2013-03-02T12:31:28Z</time>
+      <name>Mittelland-Rout</name>
+      <cmt>Mittelland-Route (5)</cmt>
+      <desc>Mittelland-Route (5)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>4eb87bf88b000480df0f0d210400ba37d7ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7120647" lon="6.5685782">
+      <ele>445.0000000</ele>
+      <time>2013-03-02T12:31:28Z</time>
+      <name>Mittelland-Rou1</name>
+      <cmt>Mittelland-Route (5)</cmt>
+      <desc>Mittelland-Route (5)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>4eb87bf88b000480df0f0d210400ac37c5ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7122149" lon="6.5679574">
+      <ele>445.0000000</ele>
+      <time>2013-03-02T12:31:29Z</time>
+      <name>Road1</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06e07bf88b000200ec0f0f210400b337a9ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road to RoadandUnpavedR</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7139959" lon="6.5695667">
+      <ele>442.8281250</ele>
+      <time>2013-03-02T12:31:14Z</time>
+      <name>Road</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000a001f0f0f2104000638f4ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7162275" lon="6.5629148">
+      <ele>435.8554688</ele>
+      <time>2013-03-02T12:31:19Z</time>
+      <name>RoadandUnpavedR</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000400c30f0f2104006e38beaa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road1 to Road2</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7122149" lon="6.5679574">
+      <ele>445.0000000</ele>
+      <time>2013-03-02T12:31:29Z</time>
+      <name>Road1</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06e07bf88b000200ec0f0f210400b337a9ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7142534" lon="6.5618420">
+      <ele>437.0742188</ele>
+      <time>2013-03-02T12:31:35Z</time>
+      <name>Road2</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000200ef0f0f21040012388caa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road10 to Mittelland-Rou2</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7037392" lon="6.5653825">
+      <ele>442.8007813</ele>
+      <time>2013-03-02T12:34:44Z</time>
+      <name>Road10</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000100ca0f0f210400283631ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7103300" lon="6.5678488">
+      <ele>446.7929688</ele>
+      <time>2013-03-02T12:34:46Z</time>
+      <name>Mittelland-Rou2</name>
+      <cmt>Mittelland-Route (5)</cmt>
+      <desc>Mittelland-Route (5)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>4eb87bf88b000480df0f0d2104005b37a3ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road10 to start-bike-chav_sud</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7037392" lon="6.5653825">
+      <ele>442.8007813</ele>
+      <time>2013-03-02T12:34:44Z</time>
+      <name>Road10</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000100ca0f0f210400283631ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7034067" lon="6.5653489">
+      <ele>442.7617188</ele>
+      <time>2013-03-02T12:48:27Z</time>
+      <name>Road88</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000900df0f0d21040018362fab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7010355" lon="6.5643740">
+      <ele>446.0000000</ele>
+      <time>2013-03-02T12:48:08Z</time>
+      <name>start-bike-chav_sud</name>
+      <cmt>446 m</cmt>
+      <desc>446 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000ffffffffffffffffffffffff</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road11 to Road1</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7111635" lon="6.5672493">
+      <ele>445.9140625</ele>
+      <time>2013-03-02T12:35:05Z</time>
+      <name>Road11</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000400ec0f0f210400823788ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7122149" lon="6.5679574">
+      <ele>445.0000000</ele>
+      <time>2013-03-02T12:31:29Z</time>
+      <name>Road1</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06e07bf88b000200ec0f0f210400b337a9ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road15 to 443m</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7110173" lon="6.5516425">
+      <ele>439.1875000</ele>
+      <time>2013-03-02T12:36:11Z</time>
+      <name>Road15</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000700de0f0d2104007b37b0a8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7100536" lon="6.5525734">
+      <ele>439.4335938</ele>
+      <time>2013-03-02T12:36:26Z</time>
+      <name>Road18</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000300de0f0d2104004e37dca8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7081462" lon="6.5545910">
+      <ele>440.0390625</ele>
+      <time>2013-03-02T12:36:27Z</time>
+      <name>Face1</name>
+      <cmt>Face</cmt>
+      <desc>Face</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>4e607bf88b00028000100d210400f5363aa9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7063900" lon="6.5571771">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:36:28Z</time>
+      <name>Road19</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000300de0f0d210400a336b2a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7049623" lon="6.5583873">
+      <ele>443.0000000</ele>
+      <time>2013-03-02T12:36:33Z</time>
+      <name>443m</name>
+      <cmt>443 m</cmt>
+      <desc>443 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b000100de0f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road15 to Road3</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7110173" lon="6.5516425">
+      <ele>439.1875000</ele>
+      <time>2013-03-02T12:36:11Z</time>
+      <name>Road15</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000700de0f0d2104007b37b0a8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7116985" lon="6.5524331">
+      <ele>440.0351563</ele>
+      <time>2013-03-02T12:36:19Z</time>
+      <name>Face</name>
+      <cmt>Face</cmt>
+      <desc>Face</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>4e607bf88b000680e30f0d2104009a37d5a8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7143388" lon="6.5540882">
+      <ele>438.9023438</ele>
+      <time>2013-03-02T12:36:20Z</time>
+      <name>Road16</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000d00e30f0d210400153822a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7159040" lon="6.5547474">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:36:21Z</time>
+      <name>Road17</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000d00e30f0d2104005e3841a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7163563" lon="6.5554047">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:32:00Z</time>
+      <name>Road3</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03187bf88b000400e30f0f210400743860a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road2 to RoadandUnpaved2</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7142534" lon="6.5618420">
+      <ele>437.0742188</ele>
+      <time>2013-03-02T12:31:35Z</time>
+      <name>Road2</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000200ef0f0f21040012388caa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7178583" lon="6.5569067">
+      <ele>437.0742188</ele>
+      <time>2013-03-02T12:31:51Z</time>
+      <name>RoadandUnpaved2</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000700c40f0f210400ba38a6a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road2 to RoadandUnpavedR</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7142534" lon="6.5618420">
+      <ele>437.0742188</ele>
+      <time>2013-03-02T12:31:35Z</time>
+      <name>Road2</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000200ef0f0f21040012388caa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7162275" lon="6.5629148">
+      <ele>435.8554688</ele>
+      <time>2013-03-02T12:31:19Z</time>
+      <name>RoadandUnpavedR</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000400c30f0f2104006e38beaa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road28 to Road29</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7009926" lon="6.5568638">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:36:56Z</time>
+      <name>Road28</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000a00df0f0f210400a835a4a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6996837" lon="6.5638375">
+      <ele>441.9531250</ele>
+      <time>2013-03-02T12:36:59Z</time>
+      <name>Road29</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000900df0f0f2104006b35e9aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road29 to Road30</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6996837" lon="6.5638375">
+      <ele>441.9531250</ele>
+      <time>2013-03-02T12:36:59Z</time>
+      <name>Road29</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000900df0f0f2104006b35e9aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6989326" lon="6.5675497">
+      <ele>444.7773438</ele>
+      <time>2013-03-02T12:37:05Z</time>
+      <name>Road30</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987bf88b000500f30f0f210400483596ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road29 to RoadandUnpaved9</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6996837" lon="6.5638375">
+      <ele>441.9531250</ele>
+      <time>2013-03-02T12:36:59Z</time>
+      <name>Road29</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000900df0f0f2104006b35e9aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6972375" lon="6.5629578">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:40:59Z</time>
+      <name>RoadandUnpaved9</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000d00df0f0f210400f934c0aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road3 to 440m</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7163563" lon="6.5554047">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:32:00Z</time>
+      <name>Road3</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03187bf88b000400e30f0f210400743860a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7125154" lon="6.5609622">
+      <ele>440.0000000</ele>
+      <time>2013-03-02T12:32:05Z</time>
+      <name>440m</name>
+      <cmt>440 m</cmt>
+      <desc>440 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b000100ef0f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road30 to Road31</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6989326" lon="6.5675497">
+      <ele>444.7773438</ele>
+      <time>2013-03-02T12:37:05Z</time>
+      <name>Road30</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987bf88b000500f30f0f210400483596ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7012715" lon="6.5689659">
+      <ele>448.6015625</ele>
+      <time>2013-03-02T12:37:10Z</time>
+      <name>Road31</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03187bf88b000100f40f0f210400b535d8ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road31 to Road32</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7012715" lon="6.5689659">
+      <ele>448.6015625</ele>
+      <time>2013-03-02T12:37:10Z</time>
+      <name>Road31</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03187bf88b000100f40f0f210400b535d8ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7007565" lon="6.5702319">
+      <ele>459.5976563</ele>
+      <time>2013-03-02T12:37:12Z</time>
+      <name>Road32</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000300f40f0f2104009d3513ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road32 to Road33</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7007565" lon="6.5702319">
+      <ele>459.5976563</ele>
+      <time>2013-03-02T12:37:12Z</time>
+      <name>Road32</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000300f40f0f2104009d3513ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7017865" lon="6.5710258">
+      <ele>466.1289063</ele>
+      <time>2013-03-02T12:37:14Z</time>
+      <name>Road33</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b00010040030f210400cd3538ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road33 to Road34</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7017865" lon="6.5710258">
+      <ele>466.1289063</ele>
+      <time>2013-03-02T12:37:14Z</time>
+      <name>Road33</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b00010040030f210400cd3538ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7029667" lon="6.5691590">
+      <ele>454.6132813</ele>
+      <time>2013-03-02T12:37:17Z</time>
+      <name>Road34</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987bf88b000100f40f0f2104000436e1ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road34 to Road10</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7029667" lon="6.5691590">
+      <ele>454.6132813</ele>
+      <time>2013-03-02T12:37:17Z</time>
+      <name>Road34</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987bf88b000100f40f0f2104000436e1ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7028176" lon="6.5677609">
+      <ele>446.6835938</ele>
+      <time>2013-03-02T12:37:21Z</time>
+      <name>Road35</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000100ca0f0d210400fd359fab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7037392" lon="6.5653825">
+      <ele>442.8007813</ele>
+      <time>2013-03-02T12:34:44Z</time>
+      <name>Road10</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000100ca0f0f210400283631ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road34 to Road31</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7029667" lon="6.5691590">
+      <ele>454.6132813</ele>
+      <time>2013-03-02T12:37:17Z</time>
+      <name>Road34</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987bf88b000100f40f0f2104000436e1ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7012715" lon="6.5689659">
+      <ele>448.6015625</ele>
+      <time>2013-03-02T12:37:10Z</time>
+      <name>Road31</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03187bf88b000100f40f0f210400b535d8ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road36 to Chavornay</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7102194" lon="6.5687513">
+      <ele>446.8320313</ele>
+      <time>2013-03-02T12:37:25Z</time>
+      <name>Road36</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000100cc0f0f2104005637ceab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7065852" lon="6.5672064">
+      <ele>444.4960938</ele>
+      <time>2013-03-02T12:37:29Z</time>
+      <name>Road37</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000100cc0f0d210400ac3686ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7060137" lon="6.5693307">
+      <ele>453.1992188</ele>
+      <time>2013-03-02T12:37:33Z</time>
+      <name>Chavornay</name>
+      <cmt>Chavornay</cmt>
+      <desc>Chavornay</desc>
+      <sym>City (Small)</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0b007bf88b000200cc0f0500000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road36 to Mittelland-Rou2</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7102194" lon="6.5687513">
+      <ele>446.8320313</ele>
+      <time>2013-03-02T12:37:25Z</time>
+      <name>Road36</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000100cc0f0f2104005637ceab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7103300" lon="6.5678488">
+      <ele>446.7929688</ele>
+      <time>2013-03-02T12:34:46Z</time>
+      <name>Mittelland-Rou2</name>
+      <cmt>Mittelland-Route (5)</cmt>
+      <desc>Mittelland-Route (5)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>4eb87bf88b000480df0f0d2104005b37a3ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road36 to start-maison</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7102194" lon="6.5687513">
+      <ele>446.8320313</ele>
+      <time>2013-03-02T12:37:25Z</time>
+      <name>Road36</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000100cc0f0f2104005637ceab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7119571" lon="6.5692174">
+      <ele>445.0000000</ele>
+      <time>2013-03-02T12:47:01Z</time>
+      <name>Road6</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000300ec0f0d210400a637e3ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7125842" lon="6.5694536">
+      <ele>444.0859375</ele>
+      <time>2013-03-02T12:47:03Z</time>
+      <name>Road87</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000300ec0f0d210400c437eeab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7125767" lon="6.5695329">
+      <time>2013-03-02T12:46:51Z</time>
+      <name>start-maison</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Flag, Green</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000ffffffffffffffffffffffff</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road4 to RoadandUnpaved3</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7181373" lon="6.5639234">
+      <ele>435.8554688</ele>
+      <time>2013-03-02T12:32:13Z</time>
+      <name>Road4</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000400c30f0f210400c738edaa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7222357" lon="6.5666270">
+      <ele>433.6679688</ele>
+      <time>2013-03-02T12:32:26Z</time>
+      <name>RoadandUnpaved3</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06e07bf88b000100b20e0f21040086396bab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road4 to UnpavedRoad</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7181373" lon="6.5639234">
+      <ele>435.8554688</ele>
+      <time>2013-03-02T12:32:13Z</time>
+      <name>Road4</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000400c30f0f210400c738edaa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7210984" lon="6.5598893">
+      <ele>433.1171875</ele>
+      <time>2013-03-02T12:32:17Z</time>
+      <name>UnpavedRoad</name>
+      <cmt>Unpaved Road</cmt>
+      <desc>Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0a987bf88b000500c30f0f210400513931aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road41 to Road42</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7007780" lon="6.5806389">
+      <ele>498.5078125</ele>
+      <time>2013-03-02T12:38:13Z</time>
+      <name>Road41</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b00040031030f2104009e35f8ad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6989326" lon="6.5795445">
+      <ele>503.5546875</ele>
+      <time>2013-03-02T12:38:18Z</time>
+      <name>Road42</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b00050031030f2104004835c5ad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road42 to Road43</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6989326" lon="6.5795445">
+      <ele>503.5546875</ele>
+      <time>2013-03-02T12:38:18Z</time>
+      <name>Road42</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b00050031030f2104004835c5ad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6997910" lon="6.5773559">
+      <ele>495.9335938</ele>
+      <time>2013-03-02T12:38:21Z</time>
+      <name>Road43</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04987cf88b00050031030f21040070355fad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road43 to Road44</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6997910" lon="6.5773559">
+      <ele>495.9335938</ele>
+      <time>2013-03-02T12:38:21Z</time>
+      <name>Road43</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04987cf88b00050031030f21040070355fad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7020869" lon="6.5714335">
+      <ele>467.6992188</ele>
+      <time>2013-03-02T12:38:23Z</time>
+      <name>Road44</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b0001003d030f210400db354bac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road44 to Road33</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7020869" lon="6.5714335">
+      <ele>467.6992188</ele>
+      <time>2013-03-02T12:38:23Z</time>
+      <name>Road44</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b0001003d030f210400db354bac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7017865" lon="6.5710258">
+      <ele>466.1289063</ele>
+      <time>2013-03-02T12:37:14Z</time>
+      <name>Road33</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b00010040030f210400cd3538ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road44 to Road45</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7020869" lon="6.5714335">
+      <ele>467.6992188</ele>
+      <time>2013-03-02T12:38:23Z</time>
+      <name>Road44</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b0001003d030f210400db354bac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7028809" lon="6.5717983">
+      <ele>468.0351563</ele>
+      <time>2013-03-02T12:38:31Z</time>
+      <name>Road45</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b00010040030f21040000365cac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road45 to Road46</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7028809" lon="6.5717983">
+      <ele>468.0351563</ele>
+      <time>2013-03-02T12:38:31Z</time>
+      <name>Road45</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b00010040030f21040000365cac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7030096" lon="6.5723777">
+      <ele>469.8437500</ele>
+      <time>2013-03-02T12:38:32Z</time>
+      <name>Road46</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04987cf88b00010040030f210400063677ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road45 to Road48</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7028809" lon="6.5717983">
+      <ele>468.0351563</ele>
+      <time>2013-03-02T12:38:31Z</time>
+      <name>Road45</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b00010040030f21040000365cac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7032484" lon="6.5708967">
+      <ele>464.2656250</ele>
+      <time>2013-03-02T12:38:38Z</time>
+      <name>Road47</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007cf88b00020040030d210400113631ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7032671" lon="6.5702534">
+      <ele>460.5507813</ele>
+      <time>2013-03-02T12:38:39Z</time>
+      <name>Road48</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000200f40f0f210400123614ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road46 to Road41</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7030096" lon="6.5723777">
+      <ele>469.8437500</ele>
+      <time>2013-03-02T12:38:32Z</time>
+      <name>Road46</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04987cf88b00010040030f210400063677ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7029435" lon="6.5733737">
+      <ele>475.5585938</ele>
+      <time>2013-03-02T12:39:03Z</time>
+      <name>Road54</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007cf88b0001003f030d2104000236a5ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7024897" lon="6.5746529">
+      <ele>480.1640625</ele>
+      <time>2013-03-02T12:39:04Z</time>
+      <name>Road55</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007cf88b0001003f030d210400ed35e1ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7007780" lon="6.5806389">
+      <ele>498.5078125</ele>
+      <time>2013-03-02T12:38:13Z</time>
+      <name>Road41</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b00040031030f2104009e35f8ad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road48 to Road34</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7032671" lon="6.5702534">
+      <ele>460.5507813</ele>
+      <time>2013-03-02T12:38:39Z</time>
+      <name>Road48</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000200f40f0f210400123614ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7029667" lon="6.5691590">
+      <ele>454.6132813</ele>
+      <time>2013-03-02T12:37:17Z</time>
+      <name>Road34</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987bf88b000100f40f0f2104000436e1ab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road48 to Road49</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7032671" lon="6.5702534">
+      <ele>460.5507813</ele>
+      <time>2013-03-02T12:38:39Z</time>
+      <name>Road48</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000200f40f0f210400123614ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7060995" lon="6.5710258">
+      <ele>459.1171875</ele>
+      <time>2013-03-02T12:38:49Z</time>
+      <name>Road49</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b00010051030f210400963638ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road49 to Chavornay</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7060995" lon="6.5710258">
+      <ele>459.1171875</ele>
+      <time>2013-03-02T12:38:49Z</time>
+      <name>Road49</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b00010051030f210400963638ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7060137" lon="6.5693307">
+      <ele>453.1992188</ele>
+      <time>2013-03-02T12:37:33Z</time>
+      <name>Chavornay</name>
+      <cmt>Chavornay</cmt>
+      <desc>Chavornay</desc>
+      <sym>City (Small)</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0b007bf88b000200cc0f0500000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road49 to Road51</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7060995" lon="6.5710258">
+      <ele>459.1171875</ele>
+      <time>2013-03-02T12:38:49Z</time>
+      <name>Road49</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b00010051030f210400963638ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7062280" lon="6.5722724">
+      <ele>467.6445313</ele>
+      <time>2013-03-02T12:38:53Z</time>
+      <name>Road50</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007cf88b00020051030d2104009b3672ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7059922" lon="6.5731931">
+      <ele>469.9726563</ele>
+      <time>2013-03-02T12:38:54Z</time>
+      <name>Road51</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987cf88b00030041030f21040091369dac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road5 to 442m</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7202401" lon="6.5723133">
+      <ele>439.2656250</ele>
+      <time>2013-03-02T12:32:47Z</time>
+      <name>Road5</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987cf88b00060065030f210400293974ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7157984" lon="6.5703177">
+      <ele>442.0000000</ele>
+      <time>2013-03-02T12:32:53Z</time>
+      <name>442m</name>
+      <cmt>442 m</cmt>
+      <desc>442 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b0004001f0f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road51 to 474m</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7059922" lon="6.5731931">
+      <ele>469.9726563</ele>
+      <time>2013-03-02T12:38:54Z</time>
+      <name>Road51</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987cf88b00030041030f21040091369dac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7052197" lon="6.5747809">
+      <ele>474.0000000</ele>
+      <time>2013-03-02T12:38:58Z</time>
+      <name>474m</name>
+      <cmt>474 m</cmt>
+      <desc>474 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007cf88b00010041031200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road51 to Road52</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7059922" lon="6.5731931">
+      <ele>469.9726563</ele>
+      <time>2013-03-02T12:38:54Z</time>
+      <name>Road51</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987cf88b00030041030f21040091369dac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7078376" lon="6.5743732">
+      <ele>468.6875000</ele>
+      <time>2013-03-02T12:38:56Z</time>
+      <name>Road52</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987cf88b00020041030f210400e736d4ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road56 to Road58</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7027950" lon="6.5833640">
+      <ele>501.7031250</ele>
+      <time>2013-03-02T12:39:08Z</time>
+      <name>Road56</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b0001002f030f210400fc3577ae</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7029238" lon="6.5828705">
+      <ele>500.6796875</ele>
+      <time>2013-03-02T12:39:10Z</time>
+      <name>Road57</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b0001001e030f210400023660ae</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7051983" lon="6.5841794">
+      <ele>493.5312500</ele>
+      <time>2013-03-02T12:39:13Z</time>
+      <name>Road58</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b0001001d030f2104006c369dae</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road58 to Road61</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7051983" lon="6.5841794">
+      <ele>493.5312500</ele>
+      <time>2013-03-02T12:39:13Z</time>
+      <name>Road58</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b0001001d030f2104006c369dae</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7058359" lon="6.5823313">
+      <ele>487.2773438</ele>
+      <time>2013-03-02T12:39:16Z</time>
+      <name>Road59</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04007cf88b0001001d030d210400893646ae</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7063355" lon="6.5799093">
+      <ele>478.2851563</ele>
+      <time>2013-03-02T12:39:17Z</time>
+      <name>Road60</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03187cf88b0006005a030f210400a136d6ad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7071939" lon="6.5766048">
+      <ele>473.6367188</ele>
+      <time>2013-03-02T12:39:19Z</time>
+      <name>Road61</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03e07cf88b00020041030f210400c9363cad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road61 to Road62</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7071939" lon="6.5766048">
+      <ele>473.6367188</ele>
+      <time>2013-03-02T12:39:19Z</time>
+      <name>Road61</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03e07cf88b00020041030f210400c9363cad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7073655" lon="6.5758753">
+      <ele>473.0507813</ele>
+      <time>2013-03-02T12:39:20Z</time>
+      <name>Road62</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987cf88b00020041030f210400d1361aad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road62 to Road52</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7073655" lon="6.5758753">
+      <ele>473.0507813</ele>
+      <time>2013-03-02T12:39:20Z</time>
+      <name>Road62</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987cf88b00020041030f210400d1361aad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7078376" lon="6.5743732">
+      <ele>468.6875000</ele>
+      <time>2013-03-02T12:38:56Z</time>
+      <name>Road52</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987cf88b00020041030f210400e736d4ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road62 to RoadandUnpaved8</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7073655" lon="6.5758753">
+      <ele>473.0507813</ele>
+      <time>2013-03-02T12:39:20Z</time>
+      <name>Road62</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987cf88b00020041030f210400d1361aad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7080797" lon="6.5764059">
+      <ele>470.4140625</ele>
+      <time>2013-03-02T12:39:29Z</time>
+      <name>Road63</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007cf88b00010056030d210400f23632ad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7084272" lon="6.5761448">
+      <ele>470.0507813</ele>
+      <time>2013-03-02T12:39:29Z</time>
+      <name>Road64</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007cf88b00010056030d210400023726ad</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7097259" lon="6.5769911">
+      <ele>463.1718750</ele>
+      <time>2013-03-02T12:39:31Z</time>
+      <name>RoadandUnpaved8</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987cf88b00010056030f2104003f374ead</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road65 to 450m</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7080522" lon="6.5738368">
+      <ele>466.2460938</ele>
+      <time>2013-03-02T12:39:45Z</time>
+      <name>Road65</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987cf88b00010052030f210400f136bbac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7090821" lon="6.5710473">
+      <ele>450.0000000</ele>
+      <time>2013-03-02T12:37:44Z</time>
+      <name>450m</name>
+      <cmt>450 m</cmt>
+      <desc>450 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007cf88b00010052031200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road65 to Road52</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7080522" lon="6.5738368">
+      <ele>466.2460938</ele>
+      <time>2013-03-02T12:39:45Z</time>
+      <name>Road65</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987cf88b00010052030f210400f136bbac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7078376" lon="6.5743732">
+      <ele>468.6875000</ele>
+      <time>2013-03-02T12:38:56Z</time>
+      <name>Road52</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987cf88b00020041030f210400e736d4ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road66 to Road68</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7094898" lon="6.5714765">
+      <ele>448.2812500</ele>
+      <time>2013-03-02T12:39:55Z</time>
+      <name>Road66</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04987cf88b00010064030f21040034374dac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7089534" lon="6.5731502">
+      <ele>460.3398438</ele>
+      <time>2013-03-02T12:39:56Z</time>
+      <name>Road67</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b00040052030f2104001b379bac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7105842" lon="6.5742660">
+      <ele>455.7226563</ele>
+      <time>2013-03-02T12:39:58Z</time>
+      <name>Road68</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b00060063030f2104006737cfac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road68 to 462m</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7105842" lon="6.5742660">
+      <ele>455.7226563</ele>
+      <time>2013-03-02T12:39:58Z</time>
+      <name>Road68</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b00060063030f2104006737cfac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7102408" lon="6.5755105">
+      <ele>462.0000000</ele>
+      <time>2013-03-02T12:39:42Z</time>
+      <name>462m</name>
+      <cmt>462 m</cmt>
+      <desc>462 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007cf88b0001005d031200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road68 to Road69</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7105842" lon="6.5742660">
+      <ele>455.7226563</ele>
+      <time>2013-03-02T12:39:58Z</time>
+      <name>Road68</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b00060063030f2104006737cfac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7111635" lon="6.5724850">
+      <ele>444.9531250</ele>
+      <time>2013-03-02T12:40:01Z</time>
+      <name>Road69</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b00010064030f21040082377cac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road69 to Road66</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7111635" lon="6.5724850">
+      <ele>444.9531250</ele>
+      <time>2013-03-02T12:40:01Z</time>
+      <name>Road69</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b00010064030f21040082377cac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7094898" lon="6.5714765">
+      <ele>448.2812500</ele>
+      <time>2013-03-02T12:39:55Z</time>
+      <name>Road66</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04987cf88b00010064030f21040034374dac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road69 to Road70</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7111635" lon="6.5724850">
+      <ele>444.9531250</ele>
+      <time>2013-03-02T12:40:01Z</time>
+      <name>Road69</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187cf88b00010064030f21040082377cac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7116356" lon="6.5708971">
+      <ele>444.0859375</ele>
+      <time>2013-03-02T12:40:16Z</time>
+      <name>Road70</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b00030063030f210400983732ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road7 to 440m1</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7272782" lon="6.5573144">
+      <ele>430.0664063</ele>
+      <time>2013-03-02T12:34:03Z</time>
+      <name>Road7</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000100bb0f0f210400713ab9a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7274070" lon="6.5566707">
+      <ele>440.0000000</ele>
+      <time>2013-03-02T12:34:06Z</time>
+      <name>440m1</name>
+      <cmt>440 m</cmt>
+      <desc>440 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b000200c40f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road70 to start-maison</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7116356" lon="6.5708971">
+      <ele>444.0859375</ele>
+      <time>2013-03-02T12:40:16Z</time>
+      <name>Road70</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b00030063030f210400983732ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7122134" lon="6.5703084">
+      <ele>444.0859375</ele>
+      <time>2013-03-02T12:40:21Z</time>
+      <name>City</name>
+      <cmt>City</cmt>
+      <desc>City</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>02007bf88b000100cc0f03210400b23716ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7125767" lon="6.5695329">
+      <time>2013-03-02T12:46:51Z</time>
+      <name>start-maison</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Flag, Green</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000ffffffffffffffffffffffff</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road71 to Road36</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7099190" lon="6.5697384">
+      <ele>446.3203125</ele>
+      <time>2013-03-02T12:40:37Z</time>
+      <name>Road71</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987bf88b000100ec0f0f2104004837fcab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7102194" lon="6.5687513">
+      <ele>446.8320313</ele>
+      <time>2013-03-02T12:37:25Z</time>
+      <name>Road36</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000100cc0f0f2104005637ceab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road71 to Road70</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7099190" lon="6.5697384">
+      <ele>446.3203125</ele>
+      <time>2013-03-02T12:40:37Z</time>
+      <name>Road71</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987bf88b000100ec0f0f2104004837fcab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7116356" lon="6.5708971">
+      <ele>444.0859375</ele>
+      <time>2013-03-02T12:40:16Z</time>
+      <name>Road70</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187cf88b00030063030f210400983732ac</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road72 to Road73</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6947699" lon="6.5620136">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:41:01Z</time>
+      <name>Road72</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000d00df0f0f210400863494aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6961002" lon="6.5549326">
+      <ele>438.9023438</ele>
+      <time>2013-03-02T12:41:03Z</time>
+      <name>Road73</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000a00df0f0f210400c4344aa9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road73 to Road74</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6961002" lon="6.5549326">
+      <ele>438.9023438</ele>
+      <time>2013-03-02T12:41:03Z</time>
+      <name>Road73</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000a00df0f0f210400c4344aa9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6935682" lon="6.5545034">
+      <ele>438.9023438</ele>
+      <time>2013-03-02T12:41:16Z</time>
+      <name>Road74</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000a00df0f0f2104004e3436a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road73 to RoadandUnpave10</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6961002" lon="6.5549326">
+      <ele>438.9023438</ele>
+      <time>2013-03-02T12:41:03Z</time>
+      <name>Road73</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000a00df0f0f210400c4344aa9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6985464" lon="6.5558982">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:41:06Z</time>
+      <name>RoadandUnpave10</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000a00df0f0f210400363577a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road74 to Road75</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6935682" lon="6.5545034">
+      <ele>438.9023438</ele>
+      <time>2013-03-02T12:41:16Z</time>
+      <name>Road74</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000a00df0f0f2104004e3436a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6923451" lon="6.5610480">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:41:18Z</time>
+      <name>Road75</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000d00df0f0f210400153467aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road75 to Road72</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6923451" lon="6.5610480">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:41:18Z</time>
+      <name>Road75</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000d00df0f0f210400153467aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6947699" lon="6.5620136">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:41:01Z</time>
+      <name>Road72</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000d00df0f0f210400863494aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road75 to Road76</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6923451" lon="6.5610480">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:41:18Z</time>
+      <name>Road75</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000d00df0f0f210400153467aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6874957" lon="6.5591168">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:41:23Z</time>
+      <name>Road76</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000100e80f0f21040033330daa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road76 to Road77</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6874957" lon="6.5591168">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:41:23Z</time>
+      <name>Road76</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000100e80f0f21040033330daa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6875815" lon="6.5585804">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:41:25Z</time>
+      <name>Road77</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000400e90f0f2104003733f4a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road76 to Road84</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6874957" lon="6.5591168">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:41:23Z</time>
+      <name>Road76</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000100e80f0f21040033330daa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6867876" lon="6.5620995">
+      <ele>442.4414063</ele>
+      <time>2013-03-02T12:42:07Z</time>
+      <name>Road84</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187bf88b000200ea0f0f210400123398aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road77 to Road79</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6875815" lon="6.5585804">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:41:25Z</time>
+      <name>Road77</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000400e90f0f2104003733f4a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6878312" lon="6.5565147">
+      <ele>439.9375000</ele>
+      <time>2013-03-02T12:41:27Z</time>
+      <name>Mittelland-Rou3</name>
+      <cmt>Mittelland-Route (5)</cmt>
+      <desc>Mittelland-Route (5)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>4eb87bf88b000480df0f0d210400423393a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6880322" lon="6.5563917">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:41:27Z</time>
+      <name>Road78</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04987bf88b000300e90f0f2104004c338ea9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6884828" lon="6.5536451">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:41:28Z</time>
+      <name>Road79</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04987bf88b000300e60f0f21040061330ea9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road79 to Road74</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6884828" lon="6.5536451">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:41:28Z</time>
+      <name>Road79</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04987bf88b000300e60f0f21040061330ea9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6935682" lon="6.5545034">
+      <ele>438.9023438</ele>
+      <time>2013-03-02T12:41:16Z</time>
+      <name>Road74</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000a00df0f0f2104004e3436a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road79 to start-marais_dame</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6884828" lon="6.5536451">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:41:28Z</time>
+      <name>Road79</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04987bf88b000300e60f0f21040061330ea9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6892552" lon="6.5495253">
+      <ele>434.9414063</ele>
+      <time>2013-03-02T12:49:12Z</time>
+      <name>Road91</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04987bf88b000300e60f0f21040085334ea8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6894132" lon="6.5495008">
+      <ele>435.0000000</ele>
+      <time>2013-03-02T12:48:55Z</time>
+      <name>start-marais_dame</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000ffffffffffffffffffffffff</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road8 to Road15</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7189741" lon="6.5515637">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:34:10Z</time>
+      <name>Road8</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987bf88b00010000100f210400ee38ada8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7166879" lon="6.5505261">
+      <ele>438.9023438</ele>
+      <time>2013-03-02T12:35:55Z</time>
+      <name>Road12</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b00020000100d21040083387ca8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7142885" lon="6.5502746">
+      <ele>439.0000000</ele>
+      <time>2013-03-02T12:35:56Z</time>
+      <name>Road13</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b00020000100d210400133870a8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7123759" lon="6.5506996">
+      <ele>440.1171875</ele>
+      <time>2013-03-02T12:35:58Z</time>
+      <name>Road14</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b00020000100d210400ba3784a8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7110173" lon="6.5516425">
+      <ele>439.1875000</ele>
+      <time>2013-03-02T12:36:11Z</time>
+      <name>Road15</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000700de0f0d2104007b37b0a8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road8 to RoadandUnpaved5</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7189741" lon="6.5515637">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:34:10Z</time>
+      <name>Road8</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03987bf88b00010000100f210400ee38ada8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7187381" lon="6.5519929">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:34:12Z</time>
+      <name>RoadandUnpaved5</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03187bf88b00010000100f210400e338c1a8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road81 to Road73</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6972013" lon="6.5488668">
+      <ele>434.9414063</ele>
+      <time>2013-03-02T12:41:35Z</time>
+      <name>Road81</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000700e10f0d210400f7342fa8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6961002" lon="6.5549326">
+      <ele>438.9023438</ele>
+      <time>2013-03-02T12:41:03Z</time>
+      <name>Road73</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000a00df0f0f210400c4344aa9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road82 to Road83</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6838908" lon="6.5540743">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:41:50Z</time>
+      <name>Road82</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000400e40f0f2104008b3222a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6841054" lon="6.5572715">
+      <ele>439.3242188</ele>
+      <time>2013-03-02T12:41:56Z</time>
+      <name>Road83</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000400e60f0f2104009532b7a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road83 to Road77</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6841054" lon="6.5572715">
+      <ele>439.3242188</ele>
+      <time>2013-03-02T12:41:56Z</time>
+      <name>Road83</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000400e60f0f2104009532b7a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6875815" lon="6.5585804">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:41:25Z</time>
+      <name>Road77</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000400e90f0f2104003733f4a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road84 to Road85</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6867876" lon="6.5620995">
+      <ele>442.4414063</ele>
+      <time>2013-03-02T12:42:07Z</time>
+      <name>Road84</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>04187bf88b000200ea0f0f210400123398aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6917872" lon="6.5640736">
+      <ele>442.0117188</ele>
+      <time>2013-03-02T12:42:13Z</time>
+      <name>Road85</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000100ea0f0f210400fb33f4aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road85 to RoadandUnpave11</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6917872" lon="6.5640736">
+      <ele>442.0117188</ele>
+      <time>2013-03-02T12:42:13Z</time>
+      <name>Road85</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000100ea0f0f210400fb33f4aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6922808" lon="6.5614557">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:42:17Z</time>
+      <name>RoadandUnpave11</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000f00df0f0f21040012347aaa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road86 to Road29</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6993364" lon="6.5641959">
+      <ele>441.9531250</ele>
+      <time>2013-03-02T12:42:32Z</time>
+      <name>Road86</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000f00df0f0d2104005a35f9aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6996837" lon="6.5638375">
+      <ele>441.9531250</ele>
+      <time>2013-03-02T12:36:59Z</time>
+      <name>Road29</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000900df0f0f2104006b35e9aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road9 to Road3</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7177081" lon="6.5535378">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:34:20Z</time>
+      <name>Road9</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03e07bf88b000400e30f0f210400b33809a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7163563" lon="6.5554047">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:32:00Z</time>
+      <name>Road3</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03187bf88b000400e30f0f210400743860a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>Road9 to RoadandUnpaved5</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7177081" lon="6.5535378">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:34:20Z</time>
+      <name>Road9</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03e07bf88b000400e30f0f210400b33809a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7187381" lon="6.5519929">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:34:12Z</time>
+      <name>RoadandUnpaved5</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03187bf88b00010000100f210400e338c1a8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpave10 to Road28</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6985464" lon="6.5558982">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:41:06Z</time>
+      <name>RoadandUnpave10</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000a00df0f0f210400363577a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7009926" lon="6.5568638">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:36:56Z</time>
+      <name>Road28</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000a00df0f0f210400a835a4a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpave11 to RoadandUnpave12</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6922808" lon="6.5614557">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:42:17Z</time>
+      <name>RoadandUnpave11</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000f00df0f0f21040012347aaa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6947269" lon="6.5623999">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:42:27Z</time>
+      <name>RoadandUnpave12</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000f00df0f0f2104008434a6aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpave12 to Road86</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6947269" lon="6.5623999">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:42:27Z</time>
+      <name>RoadandUnpave12</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000f00df0f0f2104008434a6aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6993364" lon="6.5641959">
+      <ele>441.9531250</ele>
+      <time>2013-03-02T12:42:32Z</time>
+      <name>Road86</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000f00df0f0d2104005a35f9aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpaved1 to RoadandUnpaved2</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7194676" lon="6.5584302">
+      <ele>434.9414063</ele>
+      <time>2013-03-02T12:31:45Z</time>
+      <name>RoadandUnpaved1</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06e07bf88b000700c40f0f2104000539eda9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7178583" lon="6.5569067">
+      <ele>437.0742188</ele>
+      <time>2013-03-02T12:31:51Z</time>
+      <name>RoadandUnpaved2</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000700c40f0f210400ba38a6a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpaved2 to Road3</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7178583" lon="6.5569067">
+      <ele>437.0742188</ele>
+      <time>2013-03-02T12:31:51Z</time>
+      <name>RoadandUnpaved2</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000700c40f0f210400ba38a6a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7163563" lon="6.5554047">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:32:00Z</time>
+      <name>Road3</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03187bf88b000400e30f0f210400743860a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpaved3 to 438m</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7222357" lon="6.5666270">
+      <ele>433.6679688</ele>
+      <time>2013-03-02T12:32:26Z</time>
+      <name>RoadandUnpaved3</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06e07bf88b000100b20e0f21040086396bab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7243171" lon="6.5687943">
+      <ele>438.0000000</ele>
+      <time>2013-03-02T12:32:39Z</time>
+      <name>438m</name>
+      <cmt>438 m</cmt>
+      <desc>438 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b0003001f0f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpaved3 to UnpavedRoad1</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7222357" lon="6.5666270">
+      <ele>433.6679688</ele>
+      <time>2013-03-02T12:32:26Z</time>
+      <name>RoadandUnpaved3</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06e07bf88b000100b20e0f21040086396bab</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7247033" lon="6.5631294">
+      <ele>430.9804688</ele>
+      <time>2013-03-02T12:32:30Z</time>
+      <name>UnpavedRoad1</name>
+      <cmt>Unpaved Road</cmt>
+      <desc>Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0a187bf88b000300c30f0f210400f939c8aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpaved4 to Road7</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7261624" lon="6.5603399">
+      <ele>430.0664063</ele>
+      <time>2013-03-02T12:33:59Z</time>
+      <name>RoadandUnpaved4</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000100bb0f0f2104003d3a46aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7272782" lon="6.5573144">
+      <ele>430.0664063</ele>
+      <time>2013-03-02T12:34:03Z</time>
+      <name>Road7</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000100bb0f0f210400713ab9a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpaved4 to Road9</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7261624" lon="6.5603399">
+      <ele>430.0664063</ele>
+      <time>2013-03-02T12:33:59Z</time>
+      <name>RoadandUnpaved4</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000100bb0f0f2104003d3a46aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7177081" lon="6.5535378">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:34:20Z</time>
+      <name>Road9</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03e07bf88b000400e30f0f210400b33809a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpaved5 to Road7</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7187381" lon="6.5519929">
+      <ele>437.9882813</ele>
+      <time>2013-03-02T12:34:12Z</time>
+      <name>RoadandUnpaved5</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>03187bf88b00010000100f210400e338c1a8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7272782" lon="6.5573144">
+      <ele>430.0664063</ele>
+      <time>2013-03-02T12:34:03Z</time>
+      <name>Road7</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000100bb0f0f210400713ab9a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpaved8 to 462m</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7097259" lon="6.5769911">
+      <ele>463.1718750</ele>
+      <time>2013-03-02T12:39:31Z</time>
+      <name>RoadandUnpaved8</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987cf88b00010056030f2104003f374ead</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7102408" lon="6.5755105">
+      <ele>462.0000000</ele>
+      <time>2013-03-02T12:39:42Z</time>
+      <name>462m</name>
+      <cmt>462 m</cmt>
+      <desc>462 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007cf88b0001005d031200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpaved8 to RoadandUnpaved8</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7097259" lon="6.5769911">
+      <ele>463.1718750</ele>
+      <time>2013-03-02T12:39:31Z</time>
+      <name>RoadandUnpaved8</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987cf88b00010056030f2104003f374ead</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpaved9 to Road72</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6972375" lon="6.5629578">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:40:59Z</time>
+      <name>RoadandUnpaved9</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000d00df0f0f210400f934c0aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6947699" lon="6.5620136">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:41:01Z</time>
+      <name>Road72</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000d00df0f0f210400863494aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpavedR to Road4</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7162275" lon="6.5629148">
+      <ele>435.8554688</ele>
+      <time>2013-03-02T12:31:19Z</time>
+      <name>RoadandUnpavedR</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000400c30f0f2104006e38beaa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7181373" lon="6.5639234">
+      <ele>435.8554688</ele>
+      <time>2013-03-02T12:32:13Z</time>
+      <name>Road4</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000400c30f0f210400c738edaa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>RoadandUnpavedR to RoadandUnpaved1</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7162275" lon="6.5629148">
+      <ele>435.8554688</ele>
+      <time>2013-03-02T12:31:19Z</time>
+      <name>RoadandUnpavedR</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000400c30f0f2104006e38beaa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7194676" lon="6.5584302">
+      <ele>434.9414063</ele>
+      <time>2013-03-02T12:31:45Z</time>
+      <name>RoadandUnpaved1</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06e07bf88b000700c40f0f2104000539eda9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>start-bike-chav_sud to 443m</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7010355" lon="6.5643740">
+      <ele>446.0000000</ele>
+      <time>2013-03-02T12:48:08Z</time>
+      <name>start-bike-chav_sud</name>
+      <cmt>446 m</cmt>
+      <desc>446 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000ffffffffffffffffffffffff</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7017968" lon="6.5627300">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:48:32Z</time>
+      <name>UnpavedRoad3</name>
+      <cmt>Unpaved Road</cmt>
+      <desc>Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0a007bf88b001400df0f0d210400cd35b5aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7028042" lon="6.5610945">
+      <ele>441.0390625</ele>
+      <time>2013-03-02T12:48:33Z</time>
+      <name>UnpavedRoad4</name>
+      <cmt>Unpaved Road</cmt>
+      <desc>Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0a007bf88b001400df0f0d210400fc3569aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7039649" lon="6.5592774">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:48:34Z</time>
+      <name>UnpavedRoad5</name>
+      <cmt>Unpaved Road</cmt>
+      <desc>Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0a007bf88b001400df0f0d210400323614aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7046287" lon="6.5586595">
+      <ele>440.1210938</ele>
+      <time>2013-03-02T12:48:35Z</time>
+      <name>UnpavedRoad6</name>
+      <cmt>Unpaved Road</cmt>
+      <desc>Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0a007bf88b001400df0f0d2104005136f7a9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7049623" lon="6.5583873">
+      <ele>443.0000000</ele>
+      <time>2013-03-02T12:36:33Z</time>
+      <name>443m</name>
+      <cmt>443 m</cmt>
+      <desc>443 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>63007bf88b000100de0f1200000000000000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>start-bike-chav_sud to Road29</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7010355" lon="6.5643740">
+      <ele>446.0000000</ele>
+      <time>2013-03-02T12:48:08Z</time>
+      <name>start-bike-chav_sud</name>
+      <cmt>446 m</cmt>
+      <desc>446 m</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000ffffffffffffffffffffffff</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6996837" lon="6.5638375">
+      <ele>441.9531250</ele>
+      <time>2013-03-02T12:36:59Z</time>
+      <name>Road29</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06187bf88b000900df0f0f2104006b35e9aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>start-marais_dame to Road81</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.6894132" lon="6.5495008">
+      <ele>435.0000000</ele>
+      <time>2013-03-02T12:48:55Z</time>
+      <name>start-marais_dame</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000ffffffffffffffffffffffff</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6896637" lon="6.5493389">
+      <ele>434.9414063</ele>
+      <time>2013-03-02T12:49:06Z</time>
+      <name>Road90</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000700e10f0d210400983345a8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6972013" lon="6.5488668">
+      <ele>434.9414063</ele>
+      <time>2013-03-02T12:41:35Z</time>
+      <name>Road81</name>
+      <cmt>Road</cmt>
+      <desc>Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06007bf88b000700e10f0d210400f7342fa8</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>UnpavedRoad to RoadandUnpaved1</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7210984" lon="6.5598893">
+      <ele>433.1171875</ele>
+      <time>2013-03-02T12:32:17Z</time>
+      <name>UnpavedRoad</name>
+      <cmt>Unpaved Road</cmt>
+      <desc>Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0a987bf88b000500c30f0f210400513931aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7194676" lon="6.5584302">
+      <ele>434.9414063</ele>
+      <time>2013-03-02T12:31:45Z</time>
+      <name>RoadandUnpaved1</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06e07bf88b000700c40f0f2104000539eda9</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>UnpavedRoad1 to RoadandUnpaved4</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7247033" lon="6.5631294">
+      <ele>430.9804688</ele>
+      <time>2013-03-02T12:32:30Z</time>
+      <name>UnpavedRoad1</name>
+      <cmt>Unpaved Road</cmt>
+      <desc>Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0a187bf88b000300c30f0f210400f939c8aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7251555" lon="6.5631514">
+      <ele>430.5078125</ele>
+      <time>2013-03-02T12:42:49Z</time>
+      <name>UnpavedRoad2</name>
+      <cmt>Unpaved Road</cmt>
+      <desc>Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0a007bf88b000200c30f0d2104000e3ac9aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7261624" lon="6.5603399">
+      <ele>430.0664063</ele>
+      <time>2013-03-02T12:33:59Z</time>
+      <name>RoadandUnpaved4</name>
+      <cmt>Road and Unpaved Road</cmt>
+      <desc>Road and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>06987bf88b000100bb0f0f2104003d3a46aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>UnpavedRoad1 to UnpavedRoad</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.7247033" lon="6.5631294">
+      <ele>430.9804688</ele>
+      <time>2013-03-02T12:32:30Z</time>
+      <name>UnpavedRoad1</name>
+      <cmt>Unpaved Road</cmt>
+      <desc>Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0a187bf88b000300c30f0f210400f939c8aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7210984" lon="6.5598893">
+      <ele>433.1171875</ele>
+      <time>2013-03-02T12:32:17Z</time>
+      <name>UnpavedRoad</name>
+      <cmt>Unpaved Road</cmt>
+      <desc>Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>0a987bf88b000500c30f0f210400513931aa</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+</gpx>

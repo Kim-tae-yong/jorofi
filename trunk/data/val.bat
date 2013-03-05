@@ -1,0 +1,1 @@
+Sax2Count.exe -v=always -n -s -f jogging-graphe-chavornay-out.gpx

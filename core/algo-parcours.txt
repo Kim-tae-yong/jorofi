@@ -1,0 +1,28 @@
+Chemin = {Route[], distance}
+
+CheminsAParcourir = {Chemin[] triés par distance asc}
+CheminsTermines = {Chemin[] triés par distance asc}
+
+
+Principes:
+- Si un chemin est bouclé, il est terminé
+- Un chemin non bouclé ne peut contenir qu'une seule fois une même route
+
+
+Initialisation:
+Chemins = liste des chemins partant d'un point de départ (nom start-* et toutes les routes liées)
+
+
+Recherche:
+Tant que (itChemin = CheminsAParcourir.pop(0)):
+    pour chaque route partant du dernier point:        
+        si la route n'est pas incluse: 
+            creer cheminNew avec la route
+            si cheminNew est bouclé
+                le sauver dans CheminsTermines, vérifier si on continue l'exploration
+            sinon
+                ajouter cheminNew dans CheminsAParcourir
+
+                
+Résultat:
+Afficher CheminsTermines

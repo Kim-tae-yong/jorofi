@@ -6,12 +6,12 @@
 	<artifactId>jorofi-core</artifactId>
 	<packaging>jar</packaging>
 
-    <parent>
-        <groupId>ch.shimbawa.jorofi</groupId>
-        <artifactId>jorofi-base</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        <relativePath>../base/pom.xml</relativePath>
-    </parent>
+	<parent>
+		<groupId>ch.shimbawa.jorofi</groupId>
+		<artifactId>jorofi-base</artifactId>
+		<version>1.0-SNAPSHOT</version>
+		<relativePath>../base/pom.xml</relativePath>
+	</parent>
 
 	<name>jorofi-core</name>
 	<url>https://code.google.com/p/jorofi</url>
@@ -20,10 +20,17 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>swt-repo</id>
+			<url>https://swt-repo.googlecode.com/svn/repo/</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
-            <groupId>ch.shimbawa.jorofi</groupId>
-            <artifactId>jorofi-xml</artifactId>
+			<groupId>ch.shimbawa.jorofi</groupId>
+			<artifactId>jorofi-xml</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>

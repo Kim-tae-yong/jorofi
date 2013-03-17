@@ -27,9 +27,18 @@ public class App {
 			return;
 		}
 
+		execute(clientRequest);
+	}
+
+	static void execute(ClientRequest clientRequest)
+			throws FileNotFoundException {
+		if (clientRequest.getLogListener() == null) {
+			clientRequest.setLogListener(new ConsoleLogListener());
+		}
+
 		// Read GPX
 		Dataset data = new GPXReader().read(clientRequest);
-		System.out.println("Imported data: " + data.getStats());
+		clientRequest.getLogListener().message("Imported data: " + data.getStats());
 
 		// Search chemins
 		CheminsFinder finder = new CheminsFinder();
@@ -38,7 +47,6 @@ public class App {
 		// Write GPX
 		GPXWriter writer = new GPXWriter();
 		writer.write(response, clientRequest);
-
 	}
 
 	private static ClientRequest buildRequest(String[] args) {
@@ -61,14 +69,20 @@ public class App {
 			if (line.hasOption("output")) {
 				request.setOutputFilename(line.getOptionValue("output"));
 			} else {
-				request.setOutputFilename(inputFilename.substring(0, inputFilename.length() - 4) + "-out."
+				request.setOutputFilename(inputFilename.substring(0,
+						inputFilename.length() - 4)
+						+ "-out."
 						+ inputFilename.substring(inputFilename.length() - 3));
 			}
-			request.setMetersMin(Integer.parseInt(line.getOptionValue("min_dist", "4000")));
-			request.setMetersMax(Integer.parseInt(line.getOptionValue("max_dist", "5000")));
-			request.setNbLimits(Integer.parseInt(line.getOptionValue("nb_routes", "3")));
-			request.setVerbose("true".equals(line.getOptionValue("verbose", "false")));
-			
+			request.setMetersMin(Integer.parseInt(line.getOptionValue(
+					"min_dist", "4000")));
+			request.setMetersMax(Integer.parseInt(line.getOptionValue(
+					"max_dist", "5000")));
+			request.setNbLimits(Integer.parseInt(line.getOptionValue(
+					"nb_routes", "3")));
+			request.setVerbose("true".equals(line.getOptionValue("verbose",
+					"false")));
+
 			return request;
 		} catch (ParseException e) {
 			throw new RuntimeException(e);
@@ -80,14 +94,20 @@ public class App {
 		Options options = new Options();
 		Option help = new Option("h", "help", false, "print this help message");
 		Option verbose = new Option("v", "verbose", false, "be extra verbose");
-		Option output = OptionBuilder.withArgName("output").hasArg().withDescription("output filename")
-				.create("output");
-		Option minDist = OptionBuilder.withArgName("distance").hasArg().withValueSeparator()
-				.withDescription("minimum distance [meters]").create("min_dist");
-		Option maxDist = OptionBuilder.withArgName("distance").hasArg().withValueSeparator()
-				.withDescription("maximum distance [meters]").create("max_dist");
-		Option nbRoutes = OptionBuilder.withArgName("nb_routes").hasOptionalArg().withValueSeparator()
-				.withDescription("number of routes to be found").create("nb_routes");
+		Option output = OptionBuilder.withArgName("output").hasArg()
+				.withDescription("output filename").create("output");
+		Option minDist = OptionBuilder.withArgName("distance").hasArg()
+				.withValueSeparator()
+				.withDescription("minimum distance [meters]")
+				.create("min_dist");
+		Option maxDist = OptionBuilder.withArgName("distance").hasArg()
+				.withValueSeparator()
+				.withDescription("maximum distance [meters]")
+				.create("max_dist");
+		Option nbRoutes = OptionBuilder.withArgName("nb_routes")
+				.hasOptionalArg().withValueSeparator()
+				.withDescription("number of routes to be found")
+				.create("nb_routes");
 		options.addOption(minDist);
 		options.addOption(maxDist);
 		options.addOption(nbRoutes);

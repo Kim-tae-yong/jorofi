@@ -1,87 +1,141 @@
 package ch.shimbawa.jorofi;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
-import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.io.FileNotFoundException;
 
+import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.border.EmptyBorder;
+
+import ch.shimbawa.jorofi.data.ClientRequest;
 
 public class AppGui {
 
+	final JTextField txtInputFilename;
+	final JTextField txtOutputFilename;
+	final JTextArea txtLog;
+
 	public AppGui() {
-		JFrame frame = new JFrame("JoRoFi, Jogging Route Finder");
+		txtInputFilename = new JTextField("(no filename)", 30);
+		txtOutputFilename = new JTextField("(no filename)", 30);
+		txtLog = new JTextArea("(Please start compute to see results here.)",10, 50);
+		new JScrollPane(txtLog, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+
+		final JFrame frame = new JFrame("JoRoFi, Jogging Route Finder");
 		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		JPanel main = new JPanel();
+		main.setLayout(new BorderLayout());
+		main.setBorder(new EmptyBorder(5, 5, 5, 5));
+		frame.getContentPane().add(main);
 
-//		frame.getContentPane().add((new JLabel("Hello, World!")));
 		
-		
+		main.add(buildOptions(frame), BorderLayout.NORTH);
+		main.add(buildComputeButton(frame), BorderLayout.CENTER);
 
-		JPanel panelOptions = new JPanel();
-		GridBagConstraints c = new GridBagConstraints();
-		panelOptions.setLayout(new GridBagLayout());
-		
-		c.gridx=0;
-		c.gridy=0;
-		panelOptions.add(new JLabel("Filename in"), c);
-		final JTextField txtInputFilename = new JTextField("(no filename)",30);
-		JPanel filePanel = new JPanel();
-		GridBagConstraints c2 = new GridBagConstraints();
-		filePanel.setLayout(new GridBagLayout());
-		final JButton btnSelectFile = new JButton("Select input file");
-		btnSelectFile.addActionListener(new ActionListener() {			
-			public void actionPerformed(ActionEvent e) {
-				JFileChooser fc = new JFileChooser();				
-				int returnVal = fc.showDialog(btnSelectFile, "Attach");
-				if (returnVal == JFileChooser.APPROVE_OPTION) {
-	                File file = fc.getSelectedFile();
-	                txtInputFilename.setText(file.getAbsolutePath());
-	                //This is where a real application would open the file.
-//	                log.append("Opening: " + file.getName() + "." + newline);
-	            } else {
-//	                log.append("Open command cancelled by user." + newline);
-	            }
-			}
-		});
-		c2.gridx=0;
-		c2.gridy=0;
-		c2.weightx=3;		
-		filePanel.add(txtInputFilename, c2);
-		c2.gridx++;
-		c2.weightx=1;
-		filePanel.add(btnSelectFile);
-		c.gridx=1;
-		panelOptions.add(filePanel,c);
-		
-
-		c.gridx=0;
-		c.gridy++;
-		panelOptions.add(new JLabel("Filename out"), c);
-		c.gridx++;
-		panelOptions.add(new JTextField());
-		frame.getContentPane().add(panelOptions, BorderLayout.NORTH);
-		
-		JButton btnRun = new JButton("Compute !");
-		frame.getContentPane().add(btnRun, BorderLayout.CENTER);
-		
-		JTextArea txtResults = new JTextArea("Please start compute to see results here.");
-		frame.getContentPane().add(txtResults, BorderLayout.SOUTH);
-		
-		// file: http://docs.oracle.com/javase/tutorial/uiswing/components/filechooser.html
-		
+		// results
+		JPanel resultsPanel = new JPanel();
+		resultsPanel.setLayout(new BorderLayout());
+		resultsPanel.setBorder(BorderFactory.createTitledBorder("Log"));
+		resultsPanel.add(txtLog);
+		txtLog.setBorder(BorderFactory.createLoweredBevelBorder());
+		main.add(resultsPanel, BorderLayout.SOUTH);
 
 		frame.pack(); // minimal size
 		frame.setLocationRelativeTo(null); // center
 		frame.setVisible(true);
+	}
+
+	private JButton buildComputeButton(final JFrame frame) {
+		final JButton btnRun = new JButton("Compute !");
+		btnRun.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				txtLog.setText("");
+				ClientRequest clientRequest = new ClientRequest();
+				clientRequest.setInputFilename(txtInputFilename.getText());
+				clientRequest.setOutputFilename(txtOutputFilename.getText());
+				clientRequest.setLogListener(new LogListener() {
+					public void message(String message) {
+						txtLog.setText(txtLog.getText() + message + "\n");
+						frame.repaint();
+					}
+				});
+				try {
+					App.execute(clientRequest);
+				} catch (FileNotFoundException e1) {
+					JOptionPane.showMessageDialog(frame.getParent(), e1.getMessage(),
+							"Erreur", JOptionPane.ERROR_MESSAGE);
+				}
+			}
+		});
+		return btnRun;
+	}
+
+	private JPanel buildOptions(JFrame frame) {
+
+		JPanel optionsPanel = new JPanel();
+		optionsPanel.setLayout(new GridBagLayout());
+		optionsPanel.setBorder(BorderFactory.createTitledBorder("Options"));
+		GridBagConstraints c = new GridBagConstraints();
+
+		// Filename in label
+		c.gridx = 0;
+		c.gridy = 0;
+		optionsPanel.add(new JLabel("Filename in: ", JLabel.RIGHT), c);
+
+		// Filename in value
+		c.gridx++;
+		c.weightx = 3;
+		optionsPanel.add(txtInputFilename);
+
+		// File in chooser
+		final JButton btnSelectFile = new JButton("Choose file...");
+		btnSelectFile.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JFileChooser fc = new JFileChooser();
+				int returnVal = fc.showDialog(btnSelectFile, "Attach");
+				if (returnVal == JFileChooser.APPROVE_OPTION) {
+					File file = fc.getSelectedFile();
+					String filenameIn = file.getAbsolutePath();
+					String filenameOut = filenameIn.substring(0,
+							filenameIn.length() - 4)
+							+ "-out.gpx";
+					txtInputFilename.setText(filenameIn);
+					txtOutputFilename.setText(filenameOut);
+					// This is where a real application would open the file.
+					// log.append("Opening: " + file.getName() + "." + newline);
+				} else {
+					// log.append("Open command cancelled by user." + newline);
+				}
+			}
+		});
+		c.gridx++;
+		c.weightx = 1;
+		optionsPanel.add(btnSelectFile, c);
+
+		// Filename out label
+		c.gridx = 0;
+		c.gridy++;
+		optionsPanel.add(new JLabel("Filename out: ", JLabel.RIGHT), c);
+
+		// Filename out value
+		c.gridx++;
+		optionsPanel.add(txtOutputFilename, c);
+
+		return optionsPanel;
 	}
 
 	public static void main(String[] args) {

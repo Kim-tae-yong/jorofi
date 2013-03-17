@@ -18,13 +18,12 @@ import ch.shimbawa.jorofi.xml.RteType;
 import ch.shimbawa.jorofi.xml.WptType;
 
 /** Read GPX Data */
-@SuppressWarnings("restriction")
 public class GPXReader {
 
 
-	public Dataset read(ClientRequest clientRequest) throws FileNotFoundException {
+	public Dataset read(ClientRequest clientRequest) throws FileNotFoundException {		
 		if (clientRequest.isVerbose()) {
-			System.out.println("Reading GPX file: " + clientRequest.getInputFilename());
+			clientRequest.getLogListener().message("Reading GPX file: " + clientRequest.getInputFilename());
 		}
 		return read(new FileInputStream(clientRequest.getInputFilename()));
 	}

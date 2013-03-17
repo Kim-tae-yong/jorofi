@@ -22,10 +22,12 @@ public class CheminsFinder {
 
 	public CheminsFinderResponse find(Dataset data, ClientRequest clientRequest) {
 		if (clientRequest.isVerbose()) {
-			System.out.println("Finding chemin");
+			clientRequest.getLogListener().message("Finding chemin");
 		}
-		TreeSet<Chemin> cheminsAParcourir = new TreeSet<Chemin>(new CheminComparator());
-		TreeSet<Chemin> cheminsTermines = new TreeSet<Chemin>(new CheminComparator());
+		TreeSet<Chemin> cheminsAParcourir = new TreeSet<Chemin>(
+				new CheminComparator());
+		TreeSet<Chemin> cheminsTermines = new TreeSet<Chemin>(
+				new CheminComparator());
 
 		// Initialisation:
 		// Chemins = liste des chemins partant d'un point de départ (nom start-*
@@ -39,7 +41,9 @@ public class CheminsFinder {
 			}
 		}
 		if (clientRequest.isVerbose()) {
-			System.out.println("Found " + cheminsAParcourir.size() + " chemins from starting points");
+			clientRequest.getLogListener().message(
+					"Found " + cheminsAParcourir.size()
+							+ " chemins from starting points");
 		}
 
 		// Recherche:
@@ -49,12 +53,16 @@ public class CheminsFinder {
 		while ((itChemin = cheminsAParcourir.pollFirst()) != null
 				&& cheminsTermines.size() < clientRequest.getNbLimits()) {
 			if (clientRequest.isVerbose()) {
-				System.out.println("Continuing search with found=" + cheminsTermines.size() + ", todo="
-						+ cheminsAParcourir.size());
+				clientRequest.getLogListener().message(
+						"Continuing search with found="
+								+ cheminsTermines.size() + ", todo="
+								+ cheminsAParcourir.size());
 			}
 			// Create new chemins: add ll routes from last chemin's point
 			for (Route route : data.getRoutesFromPoint(itChemin.getLastPoint())) {
-				if (!itChemin.hasRoute(route) && (authorizeInverseRoute || !itChemin.hasRouteInverse(route))) {
+				if (!itChemin.hasRoute(route)
+						&& (authorizeInverseRoute || !itChemin
+								.hasRouteInverse(route))) {
 					Chemin cheminNew = itChemin.cloneObject();
 					cheminNew.addRoute(route);
 					if (cheminNew.isLooped()) {
@@ -69,14 +77,16 @@ public class CheminsFinder {
 			}
 		}
 
-		System.out.println("Found " + cheminsTermines.size() + " chemins.");
+		clientRequest.getLogListener().message(
+				"Found " + cheminsTermines.size() + " chemins.");
 
-//		if (clientRequest.isVerbose()) {
+		if (clientRequest.isVerbose()) {
 			for (Chemin chemin : cheminsTermines) {
-				System.out.println("Found chemin with dist=" + chemin.getTotalDistance());
-				dumpChemin(chemin);
+				clientRequest.getLogListener().message(
+						"Found chemin with dist=" + chemin.getTotalDistance());
+				dumpChemin(chemin, clientRequest);
 			}
-//		}
+		}
 
 		CheminsFinderResponse response = new CheminsFinderResponse();
 		response.setPoints(data.getPoints());
@@ -85,13 +95,18 @@ public class CheminsFinder {
 		return response;
 	}
 
-	private void dumpChemin(Chemin chemin) {
-		System.out.println("Chemin " + chemin.getId() + ", dist=" + chemin.getTotalDistance());
+	private void dumpChemin(Chemin chemin, ClientRequest clientRequest) {
+		clientRequest.getLogListener().message(
+				"Chemin " + chemin.getId() + ", dist="
+						+ chemin.getTotalDistance());
 		for (Route itRoute : chemin.getRoutes()) {
-			System.out.println("   route: " + itRoute.getId() + ", dist=" + itRoute.getDistance());
+			clientRequest.getLogListener().message(
+					"   route: " + itRoute.getId() + ", dist="
+							+ itRoute.getDistance());
 			for (Point itPoint : itRoute.getPoints()) {
-				System.out.println("    point: " + itPoint.getId() + ", name=" + itPoint.getName());
-
+				clientRequest.getLogListener().message(
+						"    point: " + itPoint.getId() + ", name="
+								+ itPoint.getName());
 			}
 		}
 	}

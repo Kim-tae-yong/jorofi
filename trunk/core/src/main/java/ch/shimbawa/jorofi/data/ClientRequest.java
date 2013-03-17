@@ -1,5 +1,6 @@
 package ch.shimbawa.jorofi.data;
 
+import ch.shimbawa.jorofi.LogListener;
 import ch.shimbawa.jorofi.graph.Chemin;
 
 /**
@@ -14,6 +15,7 @@ public class ClientRequest {
 	private int nbLimits = 3;
 	private int metersMin = 4600;
 	private int metersMax = 4700;
+	private LogListener logListener;
 
 	public String getInputFilename() {
 		return inputFilename;
@@ -61,7 +63,8 @@ public class ClientRequest {
 	public boolean shouldKeepChemin(Chemin chemin) {
 		// System.out.println("Should keep ? " +
 		// chemin.getTotalDistance().intValue());
-		return chemin.getTotalDistance().intValue() >= metersMin && chemin.getTotalDistance().intValue() < metersMax;
+		return chemin.getTotalDistance().intValue() >= metersMin
+				&& chemin.getTotalDistance().intValue() < metersMax;
 	}
 
 	public boolean isVerbose() {
@@ -71,4 +74,13 @@ public class ClientRequest {
 	public void setVerbose(boolean verbose) {
 		this.verbose = verbose;
 	}
+
+	public void setLogListener(LogListener logListener) {
+		this.logListener = logListener;
+	}
+
+	public LogListener getLogListener() {
+		return logListener;
+	}
+
 }

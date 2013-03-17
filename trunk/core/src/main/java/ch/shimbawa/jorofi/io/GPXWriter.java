@@ -22,27 +22,31 @@ import ch.shimbawa.jorofi.xml.RteType;
 import ch.shimbawa.jorofi.xml.WptType;
 
 /** Write GPX data to file */
-@SuppressWarnings("restriction")
 public class GPXWriter {
 
-
-	public void write(CheminsFinderResponse response, ClientRequest clientRequest) throws FileNotFoundException {
+	public void write(CheminsFinderResponse response,
+			ClientRequest clientRequest) throws FileNotFoundException {
 		if (clientRequest.isVerbose()) {
-			System.out.println("Writing GPX file...");
+			clientRequest.getLogListener().message("Writing GPX file...");
 		}
-		write(response, new FileOutputStream(clientRequest.getOutputFilename()));
-		System.out.println("Wrote GPX file: " + clientRequest.getOutputFilename());
+		write(response,
+				new FileOutputStream(clientRequest.getOutputFilename()),
+				clientRequest);
+		clientRequest.getLogListener().message(
+				"Wrote GPX file: " + clientRequest.getOutputFilename());
 	}
-	
-	public void write(CheminsFinderResponse response, OutputStream os) {
+
+	public void write(CheminsFinderResponse response, OutputStream os,
+			ClientRequest clientRequest) {
 		GpxType gpx = initGPX();
 		writePoints(response, gpx);
 		writeChemins(response, gpx);
-		
-		marshall(gpx,os);
+
+		marshall(gpx, os, clientRequest);
 	}
 
-	private void marshall(GpxType gpx, OutputStream os) {
+	private void marshall(GpxType gpx, OutputStream os,
+			ClientRequest clientRequest) {
 		JAXBElement<GpxType> gpxFile = new ObjectFactory().createGpx(gpx);
 		try {
 			JAXBContext jc = JAXBContext.newInstance("ch.shimbawa.jorofi.xml");
@@ -53,7 +57,8 @@ public class GPXWriter {
 			marshaller.marshal(gpxFile, os);
 
 			for (ValidationEvent event : validationEventHandler.getEvents()) {
-				System.err.println(event.getMessage());
+				clientRequest.getLogListener().message(
+						"Validation error: " + event.getMessage());
 			}
 
 		} catch (JAXBException ex) {

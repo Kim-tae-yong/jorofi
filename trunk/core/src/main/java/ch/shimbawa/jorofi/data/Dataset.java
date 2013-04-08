@@ -7,14 +7,14 @@ import java.util.List;
 /** Internal (input) data set */
 public class Dataset {
 
-	private List<Point> points = new ArrayList<Point>();
+	private List<NamedPoint> points = new ArrayList<NamedPoint>();
 	private List<Route> routes = new ArrayList<Route>();
 
-	public Point findOrAddNearestPoint(BigDecimal lon, BigDecimal lat,
+	public NamedPoint findOrAddNearestPoint(BigDecimal lon, BigDecimal lat,
 			BigDecimal ele, String name) {
-		Point bestPoint = null;
+		NamedPoint bestPoint = null;
 		double bestDist = 10000;
-		for (Point point : points) {
+		for (NamedPoint point : points) {
 			double dist = point.distanceTo(lon, lat);
 			if (dist < 1 && (bestPoint == null || bestDist > dist)) {
 				bestPoint = point;
@@ -25,7 +25,7 @@ public class Dataset {
 			return bestPoint;
 		}
 
-		Point point = new Point();
+		NamedPoint point = new NamedPoint();
 		point.setLongitude(lon);
 		point.setLatitude(lat);
 		point.setAltitude(ele);
@@ -34,7 +34,7 @@ public class Dataset {
 		return point;
 	}
 
-	public void addPoint(Point point) {
+	public void addPoint(NamedPoint point) {
 		points.add(point);
 	}
 
@@ -47,9 +47,9 @@ public class Dataset {
 	}
 
 	/** @return all points with name starting with "start-" */
-	public List<Point> getStartPoints() {
-		List<Point> selectedPoints = new ArrayList<Point>();
-		for (Point point : points) {
+	public List<NamedPoint> getStartPoints() {
+		List<NamedPoint> selectedPoints = new ArrayList<NamedPoint>();
+		for (NamedPoint point : points) {
 			String pointName = point.getName();
 			if (pointName != null && pointName.startsWith("start-")) {
 				selectedPoints.add(point);
@@ -69,7 +69,7 @@ public class Dataset {
 	}
 
 	public void dump() {
-		for (Point point : points) {
+		for (NamedPoint point : points) {
 			System.out.println("Point " + point.getId() + ", name="
 					+ point.getName());
 		}
@@ -78,13 +78,12 @@ public class Dataset {
 			System.out.println("Route " + route.getId() + ", dist="
 					+ route.getDistance());
 			for (Point point : route.getPoints()) {
-				System.out.println("   Point " + point.getId() + ", name="
-						+ point.getName());
+				System.out.println(point);
 			}
 		}
 	}
 
-	public List<Point> getPoints() {
+	public List<NamedPoint> getPoints() {
 		return points;
 	}
 

@@ -78,7 +78,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>ch.shimbawa.jorofi.App</mainClass>
+                            <mainClass>ch.shimbawa.jorofi.AppGui</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

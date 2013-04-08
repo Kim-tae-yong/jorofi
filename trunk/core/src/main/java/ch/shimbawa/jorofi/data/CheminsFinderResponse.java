@@ -7,14 +7,14 @@ import ch.shimbawa.jorofi.graph.Chemin;
 /** Chemins found */
 public class CheminsFinderResponse {
 
-	private List<Point> points;
+	private List<NamedPoint> points;
 	private List<Chemin> chemins;
 
-	public List<Point> getPoints() {
+	public List<NamedPoint> getPoints() {
 		return points;
 	}
 
-	public void setPoints(List<Point> points) {
+	public void setPoints(List<NamedPoint> points) {
 		this.points = points;
 	}
 

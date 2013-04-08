@@ -10,7 +10,7 @@ import org.junit.Test;
 import ch.shimbawa.jorofi.ConsoleLogListener;
 import ch.shimbawa.jorofi.data.CheminsFinderResponse;
 import ch.shimbawa.jorofi.data.ClientRequest;
-import ch.shimbawa.jorofi.data.Point;
+import ch.shimbawa.jorofi.data.NamedPoint;
 import ch.shimbawa.jorofi.data.Route;
 import ch.shimbawa.jorofi.graph.Chemin;
 import ch.shimbawa.jorofi.io.GPXWriter;
@@ -19,8 +19,8 @@ public class GPXWriterTest {
 	
 	@Test
 	public void testWrite() {
-		Point point1 = createPoint("point1", 6.65,46.65,444);
-		Point point2 = createPoint("point2", 6.75,46.75,432);
+		NamedPoint point1 = createPoint("point1", 6.65,46.65,444);
+		NamedPoint point2 = createPoint("point2", 6.75,46.75,432);
 		Route route1 = new Route();
 		route1.addPoint(createPoint("p3", 6.00,46.00,400));
 		route1.addPoint(createPoint("p4", 6.10,46.20,400));
@@ -49,8 +49,8 @@ public class GPXWriterTest {
 		Assert.assertEquals("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><gpx xmlns=\"http://www.topografix.com/GPX/1/1\" version=\"1.1\" creator=\"Jorofi\"><wpt lon=\"6.65\" lat=\"46.65\"><ele>444</ele><name>point1</name></wpt><wpt lon=\"6.75\" lat=\"46.75\"><ele>432</ele><name>point2</name></wpt><rte><name>chemin-1</name><rtept lon=\"6.0\" lat=\"46.0\"><ele>400</ele><name>p3</name></rtept><rtept lon=\"6.1\" lat=\"46.2\"><ele>400</ele><name>p4</name></rtept><rtept lon=\"6.2\" lat=\"46.0\"><ele>400</ele><name>p5</name></rtept><rtept lon=\"6.3\" lat=\"46.2\"><ele>400</ele><name>p6</name></rtept></rte><rte><name>chemin-2</name><rtept lon=\"6.4\" lat=\"46.0\"><ele>400</ele><name>p7</name></rtept><rtept lon=\"6.5\" lat=\"46.2\"><ele>400</ele><name>p8</name></rtept></rte></gpx>", new String(os.toByteArray()));
 	}
 	
-	private Point createPoint(String name, double lon, double lat, int alt) {
-		Point point = new Point();
+	private NamedPoint createPoint(String name, double lon, double lat, int alt) {
+		NamedPoint point = new NamedPoint();
 		point.setName(name);
 		point.setLongitude(BigDecimal.valueOf(lon));
 		point.setLatitude(BigDecimal.valueOf(lat));

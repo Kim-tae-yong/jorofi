@@ -12,7 +12,7 @@ public class ClientRequest {
 	private String inputFilename;
 	private String outputFilename;
 	private boolean verbose;
-	private int nbLimits = 3;
+	private int nbLimits = 5;
 	private int metersMin = 4600;
 	private int metersMax = 4700;
 	private LogListener logListener;

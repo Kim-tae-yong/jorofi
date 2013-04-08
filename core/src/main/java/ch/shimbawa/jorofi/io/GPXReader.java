@@ -11,7 +11,7 @@ import javax.xml.bind.Unmarshaller;
 
 import ch.shimbawa.jorofi.data.ClientRequest;
 import ch.shimbawa.jorofi.data.Dataset;
-import ch.shimbawa.jorofi.data.Point;
+import ch.shimbawa.jorofi.data.NamedPoint;
 import ch.shimbawa.jorofi.data.Route;
 import ch.shimbawa.jorofi.xml.GpxType;
 import ch.shimbawa.jorofi.xml.RteType;
@@ -54,7 +54,7 @@ public class GPXReader {
 		for (RteType route : gpx.getRte()) {
 			Route myroute = new Route();
 			for (WptType wp : route.getRtept()) {
-				Point point = data.findOrAddNearestPoint(wp.getLon(), wp.getLat(), wp.getEle(), wp.getName());
+				NamedPoint point = data.findOrAddNearestPoint(wp.getLon(), wp.getLat(), wp.getEle(), wp.getName());
 				if (!myroute.hasPoint(point)) {
 					// could be two points on one grouped by distance
 					myroute.addPoint(point);
@@ -72,7 +72,7 @@ public class GPXReader {
 
 	private void readWaypoints(Dataset data, GpxType gpx) {
 		for (WptType wp : gpx.getWpt()) {
-			Point point = new Point();
+			NamedPoint point = new NamedPoint();
 			point.setLongitude(wp.getLon());
 			point.setLatitude(wp.getLat());
 			point.setAltitude(wp.getEle());

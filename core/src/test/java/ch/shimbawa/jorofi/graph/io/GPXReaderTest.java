@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import ch.shimbawa.jorofi.data.Dataset;
-import ch.shimbawa.jorofi.data.Point;
+import ch.shimbawa.jorofi.data.NamedPoint;
 import ch.shimbawa.jorofi.io.GPXReader;
 
 public class GPXReaderTest {
@@ -14,7 +14,7 @@ public class GPXReaderTest {
 		Dataset data = new GPXReader().read(getClass().getResourceAsStream("/small1.gpx"));
 		Assert.assertEquals(5, data.getPoints().size());
 		
-		Point point = data.getPoints().get(0);
+		NamedPoint point = data.getPoints().get(0);
 		Assert.assertEquals(1l, point.getId());
 		Assert.assertEquals("6.5682824", point.getLongitude().toString());
 		Assert.assertEquals("46.7100522", point.getLatitude().toString());
